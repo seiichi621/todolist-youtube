@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h2>Todoリスト with Typescript</h2>
+        <h2>Todoリスト with Typescript01</h2>
         <form onSubmit={(e) => handleSubmit(e)}>
           <input type="text" onChange={(e) => handleChange(e)} className="inputText"/>
           <input type="submit" value="作成" className="submitButton"/>
